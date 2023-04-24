@@ -8,9 +8,9 @@ export const RecipesPage = () => {
   element.innerHTML += `
     <main class="container">
       <h1>Recepty</h1>
+      <div class="recipes"></div>
     </main>
   `;
   element.append(Footer());
-
   return element;
 }
