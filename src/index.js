@@ -9,3 +9,11 @@ if (location.pathname === '/') {
 } else if (location.pathname === '/recepty') {
   appElement.append(RecipesPage());
 };
+
+function createErrorContent() {
+  var errorPage = document.getElementById('error-page');
+  errorPage.innerHTML = `
+  <h1> Tato stránka neexistuje`;
+}
+
+createErrorContent();
